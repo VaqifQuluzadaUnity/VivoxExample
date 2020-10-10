@@ -3,8 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ChannelPanelController
     - UserChatController
+    - UserChatIdentifier
     - UserLoginController
     - UserMenuController
+    - UsersInChatController
     - VivoxVoiceManager
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -97,6 +99,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 15530}
     - Class: 114
       Script: {instanceID: 15576}
+    - Class: 114
+      Script: {instanceID: 17474}
+    - Class: 114
+      Script: {instanceID: 17486}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -381,7 +387,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: a35ce3c4ace170e33f8bcaa6792e8ff4
+      Hash: 3bd7eca0ab1bdcef5dda0e68e4dfb63e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ChannelPanelController
@@ -697,8 +703,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6f2a4ddd98e5d03ae359afe7e8af7db7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UsersInChatController
+  - hash:
+      serializedVersion: 2
+      Hash: ef693580351c34f5bf3cf39effd0b72e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UserChatIdentifier
   platform: 5
   scenePathNames:
   - Assets/Scenes/LoginScene.unity
   - Assets/Scenes/ChatRoom.unity
-  playerPath: C:/Users/Vaqif/Desktop/UnityBuilds/VivoxExampleTest/VivoxTestExample.exe
+  playerPath: C:/Users/Vaqif/Desktop/UnityBuilds/VivoxTestExample/VivoxTestExample.exe
